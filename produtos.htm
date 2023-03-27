@@ -1,0 +1,247 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakeUP</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+
+   
+
+<header>
+
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+    <a href="#" class="logo">Make<span>up</span></a>
+
+    <nav class="navbar">
+        <a href="index.html"> HOME |</a>
+        <a href="produtos.htm"> PRODUTOS |</a>
+        <a href="quem_somos.html"> QUEM SOMOS |</a>
+    </nav>
+
+    <div class="icons">
+        <a href="index.html" class="fas fa-heart"></a>
+        <a href="produtos.htm" class="fas fa-shopping-cart"></a>
+        <a href="quem_somos.html" class="fas fa-user"></a>
+    </div>
+
+</header>
+
+    <br>
+    <br>
+    <br>    
+
+<section class="products" id="products">
+
+    <h5 class="heading"><span>Monte a make ideal para você:</span> </h5>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="imagens/produto5.png" alt=""></a>
+            </div>
+            <div class="content">
+                <h3> FRAYARA máscara de cílios</h3>
+                <div class="price">$ 10,29 <span> $ 15,36</span> </div>
+                <button onclick="adicionarProduto('Base MaryMaria Makeup', 51.45)" id="bnt">COMPRAR</button>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="image">
+                <img src="imagens/produto7.PNG" alt=""></a>
+            </div>
+            <div class="content">
+                <h3>Palete de sombras neon makeUP</h3>
+                <div class="price">$ 36,00<span> $ 45,00</span> </div>
+                <button onclick="adicionarProduto('Base MaryMaria Makeup', 180.00)" id="bnt">COMPRAR</button>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="imagens/produto9.PNG" alt=""></a>
+            </div>
+            <div class="content">
+                <h3>Iluminador facil makeUP</h3>
+                <div class="price">$ 48,00 <span> $ 52,00</span> </div>
+                <button onclick="adicionarProduto('Base MaryMaria Makeup', 240.00)" id="bnt">COMPRAR</button>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="image">
+                <img src="imagens/produto10.PNG" alt=""> </a>
+            </div>
+            <div class="content">
+                <h3>Lápis de olhos rose makeUP</h3>
+                <div class="price"> $ 25,00 <span> $ 32,00</span> </div>
+                <button onclick="adicionarProduto('Base MaryMaria Makeup', 199.95)" id="bnt">COMPRAR</button>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <span class="discount">-5%</span>
+            <div class="image">
+                <img src="imagens/produto2.png" alt=""></a>
+            </div>
+            <div class="content">
+                <h3>Sérum WePink</h3>
+                <div class="price">$ 12,00 <span> $ 15,00</span> </div>
+                <button onclick="adicionarProduto('Sérum WePink', 60.00)" id="bnt">COMPRAR</button>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="image">
+            <img src="imagens/produto3.png" alt=""> </a>
+            </div>
+            <div class="content">
+                <h3>Batom matte nude</h3>
+                <div class="price"> $ 59,90 <span> $ 70,00</span> </div>
+                <button onclick="adicionarProduto('Batom matte nude', 299.50)"id="bnt">COMPRAR</button>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+            <img src="imagens/produto4.png" alt=""> </a>
+            </div>
+            <div class="content">
+                <h3>Kit pincéis makeUP </h3>
+                <div class="price"> $ 22,00 <span> $ 25,00</span> </div>
+                <button onclick="adicionarProduto('Kit pincéis makeup', 110.00)" id="bnt">COMPRAR</button>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="image">
+            <img src="imagens/produto1.png" alt=""></a>
+            </div>
+            <div class="content">
+                <h3>Base MaryMaria MakeUP</h3></a> 
+                <div class="price">$ 39,99 <span> $ 89,99</span> </div>
+                <button onclick="adicionarProduto('Base MaryMaria Makeup', 199.95)" id="bnt">COMPRAR</button>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="review" id="review">
+    
+    <div class="box-container">
+    
+        <div class="box">
+            <div class="user">
+                <div class="user-info">
+                    <div id="carrinho" >
+                        <h3>Itens no Carrinho - convertido para real</h1>
+                        <ul id="lista-itens" ></ul>
+                        <h3>Total: R$ <span id="total"></span></h3>
+                        <br>
+                        <button onclick="limparCarrinho()" id="botao1">Limpar Carrinho</button><br><br>
+                        </div>
+                        <br>
+                            <div>
+                              <a href="quem_somos.html" type="button" id="botao1" > Continuar Compra</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        
+</section>
+
+
+<section class="review" id="review">
+    
+    <div class="box-container">
+    
+        <div class="box">
+            <div class="user">
+                <img src="imagens/virginia.jpg" alt="">
+                <div class="user-info">
+                    <h3>Virginia Fonseca</h3>
+                    <span>INFLUENCER</span>
+                    <p>Excelente atendimento e ótimo a qualidade dos produto!</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="user">
+                <img src="imagens/marimaria.jpg" alt="">
+                <div class="user-info">
+                    <h3>Mari Maria</h3>
+                    <span>INFLUENCER</span>
+                    <p>Primeira compra na loja e fui positivamente surpreendido</p>
+                </div>
+            </div>
+           
+        </div>
+        <div class="box">
+            <div class="user">
+                <img src="imagens/franciny.jpg" alt="">
+                <div class="user-info">
+                    <h3>Franciny Ehlke</h3>
+                    <span>INFLUENCER</span>
+                    <p>Recomendo o produto é de excelente qualidade!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    </section>
+
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Acesse por aqui</h3>
+            <a href="index.html">HOME</a>
+            <a href="produtos.htm">PRODUTOS</a>
+            <a href="quem_somos.html">QUEM SOMOS</a>
+            <a href="quem_somos.html">CONTATO</a>
+        </div>
+
+
+        <div class="box">
+            <h3>Localizações da loja:</h3>
+            <a href="#">SÃO PAULO</a>
+            <a href="#">RIO DE JANEIRO</a>
+            <a href="#">MINAS GERAIS</a>
+            <a href="#">SANTA CATARINA</a>
+        </div>
+
+        <div class="box">
+            <h3>ENTRE EM CONTATO:</h3>
+            <a href="quem_somos.html">Telefone: 11 98122-7689</a>
+            <a href="quem_somos.html">E-mail: makeupbr@gmail.com</a>
+            <a href="quem_somos.html">Endereço: Mogi das Cruzes - SP 08840-710</a>
+        </div>
+
+    </div>
+
+    
+</section>
+<script src="js/js.js"></script>
+</body>
+</html>

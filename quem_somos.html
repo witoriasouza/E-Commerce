@@ -1,0 +1,238 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakeUP</title>  
+    <link rel="stylesheet" href="css/style.css">
+ 
+</head>
+<body>
+
+<header>
+
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+    <a href="#" class="logo">Make<span>up</span></a>
+
+    <nav class="navbar">
+        <a href="index.html"> HOME |</a>
+        <a href="produtos.htm"> PRODUTOS |</a>
+        <a href="quem_somos.html"> QUEM SOMOS |</a>
+    </nav>
+
+    <div class="icons">
+        <a href="index.html" class="fas fa-heart"></a>
+        <a href="produtos.htm" class="fas fa-shopping-cart"></a>
+        <a href="quem_somos.html" class="fas fa-user"></a>
+    </div>
+
+</header>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> 
+
+
+
+
+<!-- <section class="review" id="review">
+    
+    <div class="box-container">
+     
+         <div class="box">
+             <img src="imagens/frete.png" alt="" id="imagem-frete">
+         </div>
+     </div>
+
+ </section> -->
+
+
+
+
+
+
+
+
+<section class="review" id="review">
+    
+    <div class="box-container">
+     
+         <div class="box">
+             <div class="user">
+                 <div class="user-info">
+                    <main>
+                        <div class="container-classico">
+                                <fieldset id="fieldset-classico">
+                                    <legend>* Endereço *</legend>
+                                    <br>
+                                    <label for="cep">CEP:</label>
+                                    <br>
+                                    <input type="text" id="cep" autocomplete="off">
+                
+                                    <br>
+                                    <br>
+                
+                                    <label for="rua">RUA:</label>
+                                    <br>
+                                    <input type="text" id="rua" readonly="">
+                
+                                    <br>
+                                    <br>
+                
+                                    <label for="numero">NÚMERO:</label>
+                                    <br>
+                                    <input type="text" id="numero">
+                
+                                    <br>
+                                    <br>
+                
+                                    <label for="bairro">BAIRRO:</label>
+                                    <br>
+                                    <input type="text" id="bairro" readonly="">
+                
+                                    <br>
+                                    <br>
+                
+                                    <label for="cidade">CIDADE:</label>
+                                    <br>
+                                    <input type="text" id="cidade" readonly="">
+                
+                                    <br>
+                                    <br>
+                
+                                    <label for="estado">ESTADO:</label>
+                                    <br>
+                                    <input type="text" id="estado" readonly="">
+
+                                    <br>
+                                    <br>
+                                    <label for="regiao">Selecione a região</label>
+                                    <select id="regiao">
+                                      <option value="Norte">Norte</option>
+                                      <option value="Nordeste">Nordeste</option>
+                                      <option value="Centro-Oeste">Centro-Oeste</option>
+                                      <option value="Sudeste">Sudeste</option>
+                                      <option value="Sul">Sul</option>
+                                    </select>
+                                    <br>
+                                    <br>
+
+                                    <button onclick="calcularFrete()" id="bnt">Calcular frete</button>
+                                    <p id="resultado"></p>
+
+        
+
+                                    
+
+                                    <br>
+                                </fieldset>
+                            </div>
+                    </main>
+                    
+                 </div>
+             </div>
+             
+         </div>
+     </div>
+
+ </section>
+ 
+
+
+ <section class="products" id="products">
+    <div >
+        <div >
+           <img src="imagens/fretee.png" alt="" id="imagem-frete">
+        </div>
+    </div>
+
+</section>
+
+
+
+            
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span> SOBRE NÓS </span></h1>
+
+    <div class="row">
+
+        <div class="content">
+            <p>Localizada em Mogi das Cruzes desde 2022, a MakeUP é uma loja especializada em maquiagens, oferecendo o que há de mais novo e melhor, conta com atendimento especializado.
+            
+            </p>
+        </div>
+
+    </div>
+
+</section>
+   
+    <section class="icons-container">
+
+        <div class="icons">
+            <a href="quem_somos.html"> <img src="imagens/whats.png" alt=""> </a>
+            <div class="info">
+                <h3>Telefone</h3>
+                <span>11 98122-7689</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <a href="quem_somos.html"> <img src="imagens/insta.png" alt=""> </a>
+            <div class="info">
+                <h3>Instagram</h3>
+                <span>makeupbr_</span>
+            </div>
+        </div>
+    
+        <div class="icons">
+            <a href="quem_somos.html"> <img src="imagens/face.png" alt=""> </a>
+            <div class="info">
+                <h3>Facebook</h3>
+                <span>makeupbr_</span>
+            </div>
+        </div>
+
+    </section>
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Acesse por aqui</h3>
+            <a href="index.html">HOME</a>
+            <a href="produtos.htm">PRODUTOS</a>
+            <a href="quem_somos.html">QUEM SOMOS</a>
+            <a href="quem_somos.html">CONTATO</a>
+        </div>
+
+
+        <div class="box">
+            <h3>Localizações da loja:</h3>
+            <a href="#">SÃO PAULO</a>
+            <a href="#">RIO DE JANEIRO</a>
+            <a href="#">MINAS GERAIS</a>
+            <a href="#">SANTA CATARINA</a>
+        </div>
+
+        <div class="box">
+            <h3>ENTRE EM CONTATO:</h3>
+            <a href="quem_somos.html">Telefone: 11 98122-7689</a>
+            <a href="quem_somos.html">E-mail: makeupbr@gmail.com</a>
+            <a href="quem_somos.html">Endereço: Mogi das Cruzes - SP 08840-710</a>
+        </div>
+
+    </div>
+  
+</section>
+<script src="js/js.js"></script>
+
+</body>
+</html>
